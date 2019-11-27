@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Movies App</string>
+    <string name="internet_disconnected">Internet is not connected</string>
+    <string name="popular">Popular</string>
+    <string name="action_now_playing">Now Playing</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="release_date">Release Date</string>
+    <string name="movietime">Movie Time</string>
+    <string name="label_overview">Synopsis</string>
+    <string name="cast">Cast</string>
+</resources>
