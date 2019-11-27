@@ -42,9 +42,9 @@ public class MovieActivity extends AppCompatActivity {
         if (savedInstanceState == null) {
             showNetworkText(isOnline());
         }
-
     }
 
+    //view model instantiation
     public MainMovieViewModel obtainViewModel(Context context) {
         ViewModelFactory factory = Injection.provideViewModelFactory(context);
         return ViewModelProviders.of(this, factory).get(MainMovieViewModel.class);
