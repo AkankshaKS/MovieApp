@@ -110,9 +110,9 @@ public class MovieDetailsActivity extends AppCompatActivity {
             activityMovieDetailsBinding.movieDetailsInfo.genre.setText(genreStr);
         }
 
-        if(movieDetails.getVoteCount() != null){
-            long voteCount = movieDetails.getVoteCount();
-            activityMovieDetailsBinding.movieDetailsInfo.textVote.setText(formatNumber(voteCount));
+        if(movieDetails.getVoteAverage() != null){
+            String voteCount = String.valueOf(movieDetails.getVoteAverage());
+            activityMovieDetailsBinding.movieDetailsInfo.textVote.setText(voteCount);
 
         }
 
